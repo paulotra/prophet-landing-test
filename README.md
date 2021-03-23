@@ -24,6 +24,10 @@ $ yarn
 $ gridsome develop
 ```
 
+## Authors
+
+* **Paulo Trajano** - *Lead Developer* - [paulotra](https://github.com/paulotra)
+
 <!-- ## E2E Testing
 
 Cypress is the front end testing tool used for the app it provides different kinds of testing e2e, integration and unit tests.
@@ -67,10 +71,6 @@ yarn build
 ├── test                    # cypress
 │   └── e2e                 # e2e test cases
 ```
-
-## Authors
-
-* **Paulo Trajano** - *Lead Developer* - [paulotra](https://github.com/paulotra)
 
 ## Dependencies
 
