@@ -6,6 +6,12 @@ Created to treat bettors fairly.
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
+## Built With
+
+* [Gridsome](https://gridsome.org/) - The FE framework used
+* [Tailwind](https://tailwindcss.com/) - The CSS framework used
+* [PurgeCSS](https://purgecss.com/) - The tool to remove unsed CSS
+
 ### Prerequisites
 
 * Node
@@ -28,31 +34,7 @@ $ gridsome develop
 
 * **Paulo Trajano** - *Lead Developer* - [paulotra](https://github.com/paulotra)
 
-<!-- ## E2E Testing
-
-Cypress is the front end testing tool used for the app it provides different kinds of testing e2e, integration and unit tests.
-
-```
-# run all tests
-yarn e2e
-
-# open cypress gui
-yarn e2e:open
-```
-
-## Deployment
-
-```
-yarn build
-```
-
-## Built With
-
-* [Nuxt](https://nuxtjs.org/) - The FE framework used
-* [Tailwind](https://tailwindcss.com/) - The CSS framework used
-* [PurgeCSS](https://purgecss.com/) - The tool to remove unsed CSS
-* [ESLint](https://eslint.org/) - The tool to analyze and find code problems with JS 
-* [Mirage](https://miragejs.com/) - The temporary BE service used for mocking APIs
+<!--
 
 ## Project Structure
 
