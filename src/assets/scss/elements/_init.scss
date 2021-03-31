@@ -1,0 +1,69 @@
+body {
+  font-size: 16px;
+
+  @include breakpoint(xl) {
+    font-size: 15px;
+  }
+
+  @include breakpoint(sm) {
+    font-size: 14px;
+  }
+}
+
+p {
+  @apply m-0 text-base;
+
+  small {
+    @apply text-sm
+  }
+}
+
+a {
+  @apply cursor-pointer text-teal-100 inline-block;
+  text-decoration: none;
+
+  &:hover {
+    &:not(.ignore) {
+      transform: scale(1.01);
+    }
+
+    .toggle {
+      @apply text-teal-100;
+    }
+  }
+}
+
+a,
+input {
+  outline: none;
+}
+
+label {
+  @apply text-sm text-grey-100 table mb-3;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply text-black font-normal;
+}
+
+
+button,
+a {
+  @apply shadow-none;
+  outline: none !important;
+  transition: .2s;
+}
+
+ul {
+  // @apply p-0 m-0;
+  list-style-type: none;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-grey-100 rounded-full;
+}

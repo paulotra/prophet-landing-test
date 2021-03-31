@@ -1,0 +1,22 @@
+.trans {
+  transition: .25s;
+}
+
+.rotate-90 {
+  transform: rotate(90deg);
+}
+
+.rotate-180 {
+  transform: rotate(180deg);
+}
+
+.hover-float {
+  transform: translateY(0) scale(1);
+  box-shadow: 0 5px 10px -10px rgba(0, 0, 0, .20);
+  transition: .2s;
+
+  &:hover {
+    transform: translateY(-2px) scale(1.005);
+    box-shadow: 0 5px 10px -8px rgba(0, 0, 0, .21);
+  }
+}

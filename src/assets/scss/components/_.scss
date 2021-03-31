@@ -1,0 +1,8 @@
+@import 'layout';
+@import 'utils';
+
+@include breakpoint(lg) {
+    body {
+        display: none;
+    }
+}
